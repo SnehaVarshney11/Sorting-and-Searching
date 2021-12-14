@@ -34,3 +34,17 @@ Example:
 * ( 1 2 4 5 8 ) –> ( 1 2 4 5 8 ) 
 * ( 1 2 4 5 8 ) –> ( 1 2 4 5 8 ) 
 * ( 1 2 4 5 8 ) –> ( 1 2 4 5 8 ) 
+
+# Insertion Sort
+* Insertion sort is a simple sorting algorithm that works similar to the way you sort playing cards in your hands. The array is virtually split into a sorted and an unsorted part. Values from the unsorted part are picked and placed at the correct position in the sorted part.
+* Algorithm 
+=> To sort an array of size n in ascending order: 
+1) Iterate from arr[1] to arr[n] over the array. 
+2) Compare the current element (key) to its predecessor. 
+3) If the key element is smaller than its predecessor, compare it to the elements before. Move the greater elements one position up to make space for the swapped element.
+
+# Quick Sort
+* It follows divide and conquer strategy.
+* Let the first element of array is pivot...then-
+* We will take two variables i & j. i is in first index which shows pivot and j is in last index which shows the elements which is smaller than pivot so that they can exchange the number. 
+* Increase the number of i till we can't find the number greater then pivot and decrement j till we can't find smaller than or equal to pivotand exchange them...and continue this process and when if there is condition that i > j then don't exchange them because here we have found the position of pivot i.e. j.
