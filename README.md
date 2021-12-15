@@ -48,3 +48,8 @@ Example:
 * Let the first element of array is pivot...then-
 * We will take two variables i & j. i is in first index which shows pivot and j is in last index which shows the elements which is smaller than pivot so that they can exchange the number. 
 * Increase the number of i till we can't find the number greater then pivot and decrement j till we can't find smaller than or equal to pivotand exchange them...and continue this process and when if there is condition that i > j then don't exchange them because here we have found the position of pivot i.e. j.
+
+# Merge Sort
+* It is divide and conquer algorithm.
+* It divides the input array into two halves, calls itself for the two halves, and then merges the two sorted halves.
+* The merge() function is used for merging two halves. The merge(arr, l, m, r) is a key process that assumes that arr[l..m] and arr[m+1..r] are sorted and merges the two sorted sub-arrays into one.
